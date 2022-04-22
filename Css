@@ -1,0 +1,434 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@300&display=swap');
+
+body {
+
+font-family: 'Oswald', sans-serif;
+
+margin: 0;
+
+padding: 0;
+
+background-color: #EBC8C8;
+
+}
+
+header {
+
+  display: flex;
+
+  justify-content: center;
+
+}
+
+.logo h2{
+
+  color: black;
+
+  font-size: 30px; 
+
+}
+
+.logo span {
+
+  color: #ee786c;
+
+}
+
+.section-1 {
+
+  display: flex;
+
+  justify-content: center;
+
+  margin-top: 100px;
+
+  margin-left: 10px;
+
+}
+
+.area-title h3{
+
+  color: #ee786c;
+
+  font-weight: normal;
+
+  font-size: 20px;
+
+}
+
+.area-title h1 {
+
+  font-size: 50px;
+
+  line-height: 50px;
+
+  margin-top: -18px;
+
+}
+
+.area-title a{
+
+   display: inline-block;
+
+   background-color: #ee786c;
+
+   color: white;
+
+   font-size: 22px;
+
+   padding: 18px 40px 18px 40px;
+
+   border-radius: 0px 50px 50px 50px;
+
+   cursor: pointer;
+
+   font-weight: bold;
+
+}
+
+.image1 img{
+
+  width: 430px;
+
+  height: auto;
+
+  margin-top: 20px;
+
+  margin-left: 50px;
+
+}
+
+/* Categorias */
+
+.section-categorias {
+
+  display: flex;
+
+  justify-content: center;
+
+  flex-direction: column;
+
+  align-items: center;
+
+  margin-top: 100px;
+
+  margin-bottom: 100px;
+
+  background-color: #EBC8C8; 
+
+  height: 400px;
+
+}
+
+.section-categorias h2 {
+
+  text-transform: uppercase;
+
+  font-size: 40px;
+
+}
+
+.categorias {
+
+  display: flex;
+
+  flex-direction: row;
+
+  margin-top: 50px;
+
+}
+
+.cate {
+
+  background-color: #F5ADAD;
+
+  width: 200px;
+
+  height: 180px;
+
+  margin-left: 25px;
+
+  display: flex;
+
+  justify-content: center;
+
+  flex-direction: column;
+
+  color: white;
+
+  font-size: 22px;
+
+}
+
+.cate:hover {
+
+  background-color: #ee786c;
+
+  transition: 0,3s all;
+
+}
+
+.cate img {
+
+  width: 80px; 
+
+}
+
+.cate {
+
+    cursor: pointer;
+
+    border: 1px solid white;
+
+    color: white;
+
+    font-weight: bold;
+
+    text-transform: uppercase;
+
+    background-color: transparent;
+
+    font-weight: bold;
+
+    letter-spacing: 0.2rem;
+
+    border-radius: 20px;
+
+    position: relative;
+
+    transition: 1.5s;
+
+}
+
+.cate:hover {
+
+    color: rgb(251, 255, 0);
+
+    border: none;
+
+}
+
+.cate:before {
+
+    content: ' ';
+
+    border-radius: 20px;
+
+    bottom: 0;
+
+    left: 0;
+
+    position: absolute;
+
+    width: 0;
+
+    height: 60px;
+
+    background-color: rgb(61, 61, 61);
+
+    z-index: -1;
+
+    transition: 1s;
+
+}
+
+.cate:hover:before {
+
+    width: 100%;
+
+}
+
+/* Section 3 */
+
+.section-3 {
+
+  background-color: #ee786c;
+
+  height: auto;
+
+  display: flex;
+
+  justify-content: center;
+
+  margin-bottom: 100px;
+
+  align-items: center;
+
+}
+
+.image2 {
+
+  height: auto;
+
+}
+
+.area-title-2 {
+
+  margin-left: 10px;
+
+}
+
+.area-title-2 h1 {
+
+  color: #fff;
+
+  font-size: 46px;
+
+}
+
+.area-title-2 h3 {
+
+  font-size: 23px;
+
+  color: #fff;
+
+  font-weight: normal;
+
+  margin-top: -20px;
+
+}
+
+.area-title-2 a {
+
+  display: inline-block;
+
+  background-color: #fff;
+
+  font-size: 22px;
+
+   padding: 18px 40px 18px 40px;
+
+   border-radius: 0px 50px 50px 50px;
+
+   cursor: pointer;
+
+   color: #ee786c;
+
+   font-weight: bold;
+
+}
+
+.area-title-2 span {
+
+  color: black;
+
+  font-size: 46px;
+
+}
+
+.area-form {
+
+  display: flex;
+
+  justify-content: center;
+
+  margin-bottom: 100px;
+
+  flex-direction: column;
+
+  align-items: center;
+
+}
+
+.area-form h2 {
+
+  font-size: 55px;
+
+}
+
+.formulario form {
+
+  display: flex;
+
+  flex-direction: column;
+
+}
+
+formulário [type="submit"]{
+
+    altura: 50px;
+
+    largura: 50%;
+
+    cor de fundo: #ee786c;
+
+    cor branca;
+
+    intensidade da fonte: Negrito;
+
+}
+
+formulário [type="submit"]:hover{
+
+    cursor: ponteiro;
+
+}
+
+entrada{
+
+    margem superior: 20px;
+
+    altura: 25px;
+
+    preenchimento: 18px;
+
+    raio da borda: 20px;
+
+    borda: nenhuma;
+
+    tamanho da fonte: 20px;
+
+}
+
+input::placeholder {
+
+  cor preta;
+
+}
+
+rodapé{
+
+  margem superior: 100px;
+
+  fundo: #ee786c;
+
+}
+
+.social img {
+
+  largura: 50px;
+
+  altura: 50px;
+
+  margem esquerda: 19px;
+
+}
+
+.social {
+
+  exibição: flexível;
+
+  justificar-conteúdo: centro;
+
+}
+
+h3 {
+
+  cor: #ff;
+
+  tamanho da fonte: 27px;
+
+  alinhamento de texto: centro;
+
+}
+
+pequeno {
+
+  cor: #ff;
+
+  tamanho da fonte: 17px;
+
+  alinhamento de texto: centro;
+
+}
+
